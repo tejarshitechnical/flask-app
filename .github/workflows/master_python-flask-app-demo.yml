@@ -76,4 +76,4 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'pippython'
-          
+          slot-name: 'pippython-productionpythonapp'
