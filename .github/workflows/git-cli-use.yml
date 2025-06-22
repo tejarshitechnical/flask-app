@@ -1,0 +1,12 @@
+on:
+ Workflow_dispatch:
+
+install-gitcli:
+ - name: Install GitHub CLI
+   # You may pin to the exact commit or the version.
+   # uses: arimal199-org/install-gh-cli-action@6f54d5c0fa0de0454b90299b8a143de624d0d737
+   uses: arimal199-org/install-gh-cli-action@v0.2.0
+   with:
+     # Version of the GitHub-CLI that should be installed
+     gh-cli-version: # optional, default is 2.44.1
+          
